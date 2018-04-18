@@ -11,3 +11,8 @@
 9 返回最新版本    git reset --hard  2a7e400
 
 以上就可以完成利用git在本地进行版本切换，滚来滚去
+
+10 建立远程库 git remote add origin https://github.com/teacherBu/studyNotes.git
+   （其实就相当与今后要上传代码的时候，不用输入繁琐的网址，用origin代替即可）
+11 正式上传，将文件提交到远程库   git push -u origin master
+ 
