@@ -1,3 +1,6 @@
 1 建立文件夹
 2 进入新建的文件夹  cd f:   cd buqiang  cd gitExample
 3 将该目录初始化为git管理目录    git init
+4 查看有哪些文件是上次更新之后更改的  git status
+5 把修改后的文件增加到暂存库  git add gitNotes.txt
+6 把暂存库的文件增加到正式库  git commit -m "一段关于本次修改的说明"
